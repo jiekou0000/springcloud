@@ -26,7 +26,7 @@
 		<module>discovery</module>
 		<module>config</module>
 		<module>serverfirst</module>
-		<module>serversecond</module>
+		<module>ui</module>
 	</modules>
 
 	<dependencies>

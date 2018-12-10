@@ -1,9 +1,9 @@
 server:
-  port: 8763
+  port: 80
 
 spring:
   application:
-    name: serversecond
+    name: ui
   cloud:
       config:
         enabled: true
