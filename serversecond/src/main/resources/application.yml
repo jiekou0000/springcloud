@@ -1,0 +1,17 @@
+server:
+  port: 8763
+
+spring:
+  application:
+    name: serversecond
+  cloud:
+      config:
+        enabled: true
+        discovery:
+          enabled: true
+          service-id: config
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
