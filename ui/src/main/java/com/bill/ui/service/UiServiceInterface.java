@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @author Bill
  * @date 2018/12/10 0010
  */
-@FeignClient(value = "serverfirst")
+@FeignClient(value = "serverfirst", fallback = UiServiceHystrix.class)
 public interface UiServiceInterface {
     @GetMapping(value = "/hello")
     String getResultFromClient();
